@@ -1,0 +1,177 @@
+@font-face {
+    font-family:abc;
+    src: url(fonts/92daa4d0098aa288-s.p.woff2);
+}
+@font-face {
+    font-family: xyz;
+    src: url(fonts/bf61ec490084b651-s.p.woff2);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #F2EFE9;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+    padding: 0 5vw;
+}
+
+.nav_options{
+    display: flex;
+    align-items: center;
+    gap: 3.3vw;
+}
+
+.nav_options i {
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.nav h2{
+     font-size: 3.2vw;
+     font-family: xyz;
+}
+.nav_options h4{
+    font-size: 1vw;
+    font-family: abc;
+    font-weight: 500;
+}
+.nav_options h4:hover{
+    cursor: pointer;
+text-decoration: underline;
+}
+.nav_options button{
+    font-size: 1vw;
+    font-family: abc;
+    font-weight: 600;
+    padding: 0.5vw 1.5vw;
+    border-radius: 3px;
+}
+.nav_options_button1{
+   border: 2px solid #2F2F2D;
+   background-color: transparent;
+}
+.nav_options_button1:hover{
+    cursor: pointer;
+    background-color: white;
+   
+}
+.nav_options_button2{
+    border: none;
+    background-color: #44B1FF;
+}
+.nav_options_button2:hover{
+    background-color: #2F2F2D;
+    color: white;
+}
+.content{
+     width: 100%;
+     height: calc(100% - 100px);
+    display: flex;
+}
+.left{
+    width: 45%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    padding: 4vw 5vw;
+}
+.right{
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(222, 213, 230); */
+    padding: 4vw 3vw;
+    display: flex;
+    gap: 2vw;
+}
+
+.left h1{
+   font-size: 5vw;
+   font-family: xyz;
+   line-height: 5vw;
+}
+.left p{
+    font-size: 1.3vw;
+    font-family: abc;
+   width: 80%;
+   margin-top: 1.5vw;
+   margin-bottom: 2vw;
+   
+ }
+ .left > button{
+    font-size: 1.3vw;
+    font-family: abc;
+    font-weight: 600;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 3px;
+    background-color:#44B1FF;
+ }
+ .left > button:hover{
+    background-color: #2F2F2D;
+    color: white;
+}
+
+.right_box{
+     width: 50%;
+     height: 100%;
+}
+.box1{
+    
+    background-image: url(https://media.kit.com/images/pages/home/nisha-hero-card.jpg?fm=webp&w=656&h=656&dpr=2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.right_box2_child{
+    width: 100%;
+    height: 48%;
+    background-color: blueviolet;
+}
+.child1{
+    
+    background-image: url(https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+.child2{
+    
+    background-image: url(https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
